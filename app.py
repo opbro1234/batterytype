@@ -11,6 +11,7 @@ Original file is located at
 import numpy as np
 import joblib
 import streamlit as st
+import pandas 
 
 model = joblib.load('model.pkl')
 
