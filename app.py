@@ -13,7 +13,7 @@ import joblib
 import streamlit as st
 import pandas as pd
 
-model = joblib.load('model.pkl')
+model = joblib.load("random_forest_classifier_model.pkl")
 
 st.set_page_config(page_title='Battery Type Classifier',layout='centered')
 st.title('Battery Type Classification app')
