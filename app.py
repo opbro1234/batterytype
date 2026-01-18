@@ -12,7 +12,7 @@ import numpy as np
 import joblib
 import streamlit as st
 
-model = joblib.load('random_foest_classifier_model.pkl')
+model = joblib.load('model.pkl')
 
 st.set_page_config(page_title='Battery Type Classifier',layout='centered')
 st.title('Battery Type Classification app')
