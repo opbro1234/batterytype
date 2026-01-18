@@ -12,7 +12,7 @@ import numpy as np
 import joblib
 import streamlit as st
 
-model = joblib.load('random_forest_classifier_model.pkl')
+model = joblib.load('random_forest_classifier_model2test.pkl')
 
 st.set_page_config(page_title='Battery Type Classifier',layout='centered')
 st.title('Battery Type Classification app')
@@ -24,7 +24,7 @@ External_Abuse	= st.number_input('External Abuse', value=None)
 Poor_Battery_Design	= st.number_input('Poor Battery Design', value=None)
 Short_Circuits	= st.number_input('Short Circuits', value=None)
 Temperature	= st.number_input('Temperature', value=None)
-Overcharge_Overdischarge	= st.number_input('Overcharge/Overdischarge', value=None)
+Overcharge_Overdischarge = st.number_input('Overcharge/Overdischarge', value=None)
 Battery_Maintenance	= st.number_input('Battery Maintenance', value=None)
 Battery_Health = st.number_input('Battery Health', value=None)
 
